@@ -15,7 +15,7 @@
   } from "$components";
 </script>
 
-<main>
+<main class="">
   <Header />
   <Services />
   <Support />
