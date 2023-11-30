@@ -1,0 +1,55 @@
+.plans-piece{
+    position: relative;
+    overflow: hidden
+}
+
+.plans-heading{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 0;
+    max-width: 90%;
+    align-items: center;
+}
+
+.plans-option{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.plan-default{
+    background-color:brown;
+    padding: 15px 10px;
+    border-radius: 2px;
+    border: 2px rgb(30, 100, 16) solid;
+}
+
+.plan-center{
+
+}
+
+.plan-option-head{
+    padding: 0 0 15px;
+    margin-bottom: 15px;
+    border-bottom: #fff 1px solid;
+    color:aquamarine;
+}
+
+.plan-option-head-h{
+    font-size: 16px;
+}
+
+.plan-option-list{
+    padding-left: 10px;
+}
+
+.plans-default-captions{
+    font-size: 10px;
+    color:beige;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
