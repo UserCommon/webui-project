@@ -25,7 +25,7 @@
   />
 
   <nav
-    class="hidden lg:flex flex-row justify-evenly items-center mt-[5vh] text-sm"
+    class="hidden lg:flex flex-row justify-between items-center mt-[5vh] text-sm"
   >
     <a href="/" class="w-2/12">
       <picture>
@@ -62,13 +62,13 @@
   </nav>
 
   <div
-    class="header-info flex flex-col lg:flex-row gap-x-4 w-10/12 mt-[5vh] p-8"
+    class="header-info flex flex-col lg:flex-row gap-x-4 w-10/12 mt-[5vh] p-8 justify-between"
   >
-    <div class="left basis-3/6 gap-8 flex flex-col">
+    <div class="left basis-5/12 gap-8 flex flex-col">
       <h1 class="font-bold text-5xl lg:text-4xl text-white Info">
         Поддержка сайтов на Drupal
       </h1>
-      <p class="text-gray-300 mt-3">
+      <p class="text-gray-300 mt-3 lg:text-2xl xl:text-3xl">
         Сопровождение и поддержка сайтов на CMS Drupal любых версий и
         запущенности
       </p>
@@ -85,7 +85,7 @@
     </div>
     <div
       class="right grid grid-rows-3 grid-cols-2 lg:grid-cols-3 lg:grid-rows-2
-      text-white lg:gap-y-8 lg:gap-x-4 gap-y-4 gap-x-8 basis-3/6 mt-7 lg:mt-0"
+      text-white lg:gap-y-8 lg:gap-x-4 gap-y-4 gap-x-8 basis-6/12 mt-7 lg:mt-0"
     >
       <div class="achievement">
         <div class="inner-achievement">
@@ -95,37 +95,37 @@
             #1
             <img src="img/cup.png" alt="#1" class="scale-75" />
           </div>
-          <p>Drupal разработчики в России по Версии Рунета</p>
+          <p class="p-resp">Drupal разработчики в России по Версии Рунета</p>
         </div>
       </div>
       <div class="achievement">
         <div class="inner-achievement">
           <h1>3+</h1>
-          <p>Средний опыт специалистов более 3 лет</p>
+          <p class="p-resp">Средний опыт специалистов более 3 лет</p>
         </div>
       </div>
       <div class="achievement">
         <div class="inner-achievement">
           <h1>14</h1>
-          <p>лет опыта в сфере Drupal</p>
+          <p class="p-resp">лет опыта в сфере Drupal</p>
         </div>
       </div>
       <div class="achievement">
         <div class="inner-achievement">
           <h1>50+</h1>
-          <p>модулей и тем в формате DrupalGive</p>
+          <p class="p-resp">модулей и тем в формате DrupalGive</p>
         </div>
       </div>
       <div class="achievement">
         <div class="inner-achievement">
           <h1>90 000+</h1>
-          <p>часов поддержки сайтов на Drupal</p>
+          <p class="p-resp">часов поддержки сайтов на Drupal</p>
         </div>
       </div>
       <div class="achievement">
         <div class="inner-achievement">
           <h1>300+</h1>
-          <p>Проектов на поддержке</p>
+          <p class="p-resp">Проектов на поддержке</p>
         </div>
       </div>
     </div>
@@ -176,7 +176,11 @@
   <AnimatedHamburger {open} {onClick} width={40} />
 </div>
 
-<style>
+<style class="postcss">
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
   .list:hover ul {
     @apply block;
   }
@@ -220,6 +224,7 @@
   }
 
   .achievement {
+    @apply lg:h-48;
     @apply border-l-4;
     @apply border-orange-700;
     @apply bg-neutral-900/10;
@@ -234,7 +239,6 @@
   .achievement p {
     @apply text-gray-300;
     @apply outline-offset-4;
-    @apply text-xs;
   }
 
   .inner-achievement {
@@ -256,4 +260,11 @@
   .dropdown-menu a:hover {
     @apply bg-orange-800;
   }
+  /*
+  @screen lg {
+    .inner-achievement p {
+      @apply text-base;
+    }
+  }
+  */
 </style>
