@@ -25,7 +25,7 @@
   />
 
   <nav
-    class="hidden lg:flex flex-row justify-between items-center mt-[5vh] text-sm"
+    class="hidden lg:flex flex-row justify-evenly items-center mt-[5vh] text-sm"
   >
     <a href="/" class="w-2/12">
       <picture>
@@ -65,14 +65,14 @@
     class="header-info flex flex-col lg:flex-row gap-x-4 w-10/12 mt-[5vh] p-8"
   >
     <div class="left basis-3/6 gap-8 flex flex-col">
-      <h1 class="font-bold text-5xl text-white Info">
+      <h1 class="font-bold text-5xl lg:text-4xl text-white Info">
         Поддержка сайтов на Drupal
       </h1>
       <p class="text-gray-300 mt-3">
         Сопровождение и поддержка сайтов на CMS Drupal любых версий и
         запущенности
       </p>
-      <a href="#" class="w-5/12 self-center lg:self-start">
+      <a href="#" class="w-5/12 lg:w-32 self-center lg:self-start">
         <div
           class="button rounded-md text-white font-md text-lg border-2
                  border-orange-700 radius-4 flex justify-center
