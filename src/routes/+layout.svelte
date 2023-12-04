@@ -1,11 +1,14 @@
 <script>
-  import "../global_style.css";
+  import "../global_style.postcss";
 </script>
 
 <slot />
 
-<style>
+<style lang="postcss">
   :global(*) {
     font-family: "Montserrat";
   }
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 </style>
