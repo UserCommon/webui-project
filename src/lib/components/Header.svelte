@@ -177,10 +177,6 @@
 </div>
 
 <style class="postcss">
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
   .list:hover ul {
     @apply block;
   }
@@ -224,7 +220,7 @@
   }
 
   .achievement {
-    @apply lg:h-48;
+    @apply lg:h-40 xl:h-48;
     @apply border-l-4;
     @apply border-orange-700;
     @apply bg-neutral-900/10;
