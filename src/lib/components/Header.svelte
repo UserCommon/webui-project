@@ -7,7 +7,7 @@
   };
 </script>
 
-<section class="relative flex flex-col items-center justify-start h-[90vh]">
+<section class="relative flex flex-col items-center justify-start h-5/6">
   <video
     autoplay
     muted

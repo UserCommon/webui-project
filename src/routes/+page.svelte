@@ -1,7 +1,4 @@
 <script>
-  // import Header from '$components/Header.svelte';
-  // import Services from '$components/Services.svelte';
-  //  import Support from '$components/Support.svelte';
   import {
     Header,
     Services,
