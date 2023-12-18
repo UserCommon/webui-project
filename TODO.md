@@ -37,9 +37,9 @@
     - [ ] Label "Последние кейсы"
     - [ ] Grid of Cards (some of them with text inside, some of them with text in body)
 
-  - [ ] Team
+  - [x] Team
 
-    - [ ] Grid of Images with names and labels with padding
+    - [x] Grid of Images with names and labels with padding
 
   - [ ] Reviews
 
