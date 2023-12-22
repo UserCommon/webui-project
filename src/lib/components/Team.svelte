@@ -1,7 +1,7 @@
-<main>
-  <h2 class="title font-extrabold text-4xl">Команда</h2>
-  <div class="grid grid-cols-3 my-grid">
-    <div class="card">
+<section class="w-full flex flex-col items-center justify-center">
+  <h2 class="title font-extrabold text-4xl mb-10">Команда</h2>
+  <div class="grid grid-cols-3 gap-x-4 gap-y-6 justify-items-center w-10/12">
+    <div>
       <img src="img/IMG_2472_0.jpg" alt="" />
       <div class="card_body">
         <h3 class="text-2xl font-bold">Сергей Синица</h3>
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div>
       <img src="img/IMG_2539_0.jpg" alt="" />
       <div class="card_body">
         <h3 class="text-2xl font-bold">Роман Агабеков</h3>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div>
       <img src="img/IMG_2474_1.jpg" alt="" />
       <div class="card_body">
         <h3 class="text-2xl font-bold">Алексей Синица</h3>
@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div>
       <img src="img/IMG_2522_0.jpg" alt="" />
       <div class="card_body">
         <h3 class="text-2xl font-bold">Дарья Бочкарёва</h3>
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div>
       <img src="img/IMG_9971_16.jpg" alt="" />
       <div class="card_body">
         <h3 class="text-2xl font-bold">Ирина Торкунова</h3>
@@ -47,16 +47,11 @@
       </div>
     </div>
   </div>
-</main>
+</section>
 
 <style>
-  .my-grid {
-    margin-left: 300px;
-    margin-right: 300px;
-  }
-  .card {
-    width: 280px;
-    margin: 50px;
+  .card_desc {
+    max-width: 280px; /* Это взято с размера картинки */
   }
 
   .title {
