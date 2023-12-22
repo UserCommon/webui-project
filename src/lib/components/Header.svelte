@@ -134,7 +134,7 @@
 
 {#if open}
   <div
-    class="z-40 bottom-menu fixed h-full left-0 top-0 w-full bg-zinc-950 z-0 p-10 font-medium text-xl"
+    class=" bottom-menu fixed h-full left-0 top-0 w-full bg-zinc-950 z-0 p-10 font-medium text-xl"
   >
     <div class="flex flex-col-reverse">
       <ul>
@@ -168,7 +168,7 @@
 {/if}
 
 <div
-  class="lg:hidden fixed flex flex-row bottom-0 bg-zinc-950 w-full h-12 justify-between align-center p-4 z-50"
+  class="lg:hidden fixed flex flex-row bottom-0 bg-zinc-950 w-full h-12 justify-between align-center p-4"
 >
   <a href="#" class="">
     <img src="img/drupal-coder.svg" class="w-2/5" />
