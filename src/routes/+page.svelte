@@ -8,6 +8,7 @@
     Team,
     Reviews,
     Partners,
+    Faq,
     Form,
   } from "$components";
 </script>
@@ -21,5 +22,6 @@
   <Team />
   <Reviews />
   <Partners />
+  <Faq />
   <Form />
 </main>
