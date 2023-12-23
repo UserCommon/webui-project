@@ -1,31 +1,46 @@
 <section>
   <h2 class="title font-extrabold text-4xl mb-10 text-left">
-    <div class="text-left test mini-title">
+    <div class="px-4 text-center lg:text-left test mini-title">
       Наши профессиональные разработчики выполняют быстро любые задачи
     </div>
   </h2>
   <div class="ld:test w-full flex flex-col">
     <div
-      class="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-10 w-8/12 text-left justify-items-center m15"
+      class="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-10 w-10/12 text-left justify-items-center mx-auto"
     >
-      <div class="mini_card">
+      <div class="mini_card relative">
         <div class="image-container">
+          <img
+            class="absolute -z-10 -left-10 bottom-5 opacity-10"
+            src="img/iconFooter.png"
+            alt=""
+          />
           <img src="img/competency-20.svg" alt="" />
         </div>
         <div class="text-4xl font-extrabold">От 1ч</div>
         <p>Настройка событий GA в интернет магазине</p>
       </div>
 
-      <div class="mini_card">
+      <div class="mini_card relative">
         <div class="image-container">
+          <img
+            class="absolute -z-10 -left-10 bottom-5 opacity-10"
+            src="img/iconFooter.png"
+            alt=""
+          />
           <img src="img/competency-21.svg" alt="" />
         </div>
         <div class="text-4xl font-extrabold">От 20ч</div>
         <p>Разработка мобильной версии сайта</p>
       </div>
 
-      <div class="mini_card">
+      <div class="mini_card relative">
         <div class="image-container">
+          <img
+            class="absolute -z-10 -left-10 bottom-5 opacity-10"
+            src="img/iconFooter.png"
+            alt=""
+          />
           <img src="img/competency-22.svg" alt="" />
         </div>
         <div class="text-4xl font-extrabold">От 8ч</div>
@@ -97,9 +112,6 @@
     margin-left: 0%;
   }
 
-  .m15 {
-    margin-left: 15%;
-  }
   @media (min-width: 1024px) {
     .test {
       margin-left: 15%;
@@ -117,19 +129,6 @@
   .image-container {
     position: relative;
     display: inline-block;
-  }
-
-  .image-container::before {
-    content: "";
-    background-image: url("img/iconFooter.png");
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    opacity: 0.5;
-    pointer-events: none;
   }
 
   .card_desc {
