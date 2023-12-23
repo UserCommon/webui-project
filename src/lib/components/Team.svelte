@@ -1,12 +1,13 @@
 <section>
-  <h2 class="title font-extrabold text-4xl mb-10 text-left test">
-    <div class="text-left">
-      Наши профессиональные разработчики
-      <div>выполняют быстро любые задачи</div>
+  <h2 class="title font-extrabold text-4xl mb-10 text-left">
+    <div class="text-left test mini-title">
+      Наши профессиональные разработчики выполняют быстро любые задачи
     </div>
   </h2>
-  <div class="test w-full flex flex-col">
-    <div class="grid grid-cols-3 gap-x-4 gap-y-6 w-8/12 text-left">
+  <div class="ld:test w-full flex flex-col">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-10 w-8/12 text-left justify-items-center m15"
+    >
       <div class="mini_card">
         <div class="image-container">
           <img src="img/competency-20.svg" alt="" />
@@ -93,7 +94,20 @@
 
 <style>
   .test {
+    margin-left: 0%;
+  }
+
+  .m15 {
     margin-left: 15%;
+  }
+  @media (min-width: 1024px) {
+    .test {
+      margin-left: 15%;
+    }
+  }
+
+  .mini-title {
+    max-width: 1000px;
   }
 
   .mini_card {
