@@ -2,7 +2,7 @@ FROM alpine AS builder
 WORKDIR /app
 RUN apk add --update npm
 COPY package*.json ./
-RUN npm ci
+RUN npm install && npm install svelte-carousel -D
 COPY . .
 RUN npm run build
 CMD ["node", "build"]
