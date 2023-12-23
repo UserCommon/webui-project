@@ -4,8 +4,8 @@
     <div>
       <img src="img/IMG_2472_0.jpg" alt="" />
       <div class="card_body">
-        <h3 class="text-2xl font-bold">Сергей Синица</h3>
-        <p class="card_desc">
+        <h3 class="text-xl font-bold lg:text-2xl">Сергей Синица</h3>
+        <p class="card_desc text-xs lg:text-base">
           Руководитель отдела веб-разработки, канд тех. наук, заместитель
           директора.
         </p>
@@ -15,24 +15,28 @@
     <div>
       <img src="img/IMG_2539_0.jpg" alt="" />
       <div class="card_body">
-        <h3 class="text-2xl font-bold">Роман Агабеков</h3>
-        <p class="card_desc">Руководитель отдела DevOps, директор.</p>
+        <h3 class="text-xl font-bold lg:text-2xl">Роман Агабеков</h3>
+        <p class="card_desc text-xs lg:text-base">
+          Руководитель отдела DevOps, директор.
+        </p>
       </div>
     </div>
 
     <div>
       <img src="img/IMG_2474_1.jpg" alt="" />
       <div class="card_body">
-        <h3 class="text-2xl font-bold">Алексей Синица</h3>
-        <p class="card_desc">Руководитель отдела поддержки сайтов.</p>
+        <h3 class="text-xl font-bold lg:text-2xl">Алексей Синица</h3>
+        <p class="card_desc text-xs lg:text-base">
+          Руководитель отдела поддержки сайтов.
+        </p>
       </div>
     </div>
 
     <div>
       <img src="img/IMG_2522_0.jpg" alt="" />
       <div class="card_body">
-        <h3 class="text-2xl font-bold">Дарья Бочкарёва</h3>
-        <p class="card_desc">
+        <h3 class="text-xl font-bold lg:text-2xl">Дарья Бочкарёва</h3>
+        <p class="card_desc text-xs lg:text-base">
           Руководитель отдела продвижения, контекстной рекламы и контент
           поддержки сайтов.
         </p>
@@ -42,8 +46,10 @@
     <div>
       <img src="img/IMG_9971_16.jpg" alt="" />
       <div class="card_body">
-        <h3 class="text-2xl font-bold">Ирина Торкунова</h3>
-        <p class="card_desc">Менеджер по работе с клиентами.</p>
+        <h3 class="text-xl font-bold lg:text-2xl">Ирина Торкунова</h3>
+        <p class="card_desc text-xs lg:text-base">
+          Менеджер по работе с клиентами.
+        </p>
       </div>
     </div>
   </div>
