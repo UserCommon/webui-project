@@ -2,7 +2,7 @@
   <h2 class="title font-extrabold text-4xl mb-10">FAQ</h2>
   <ol class="list-decimal marginx font-bold text-xs">
     <li>
-      <div class="element top text-lg border-4 br">
+      <div class="element top text-lg">
         Кто непосредственно занимается поддержкой?
         <div class="text-sm mini-tex">
           Сайты поддерживают штатные сотрудники ООО "Инитлаб", г. Краснодар,
@@ -84,22 +84,14 @@
     margin-bottom: 25px;
   }
 
+  .element:hover {
+    @apply border-2 p-2 text-orange-600 border-orange-600 rounded-md;
+  }
+
   .mini-tex {
     color: gray;
   }
 
   ol li {
-    color: gray;
-  }
-
-  .bt {
-    color: black;
-  }
-  .br {
-    border-color: rgb(255, 102, 0);
-  }
-
-  .top {
-    color: rgb(255, 102, 0);
   }
 </style>
