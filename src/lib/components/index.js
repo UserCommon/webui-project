@@ -7,4 +7,6 @@ export { default as Team } from "./Team.svelte";
 export { default as Reviews } from "./Reviews.svelte";
 export { default as Partners } from "./Partners.svelte";
 export { default as Form } from "./Form.svelte";
+export { default as Faq } from "./Faq.svelte";
+
 // Cookies components
