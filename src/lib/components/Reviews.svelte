@@ -79,6 +79,6 @@
 
 <style>
   section {
-    background: url("img/right-quote-sign.svg") no-repeat;
+    background: url("/img/right-quote-sign.svg") no-repeat;
   }
 </style>
